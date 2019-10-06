@@ -1,0 +1,247 @@
+
+
+/* set font for body */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* headerbar styling */
+ul.headerbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #621a4b;
+}
+
+/* headerbar styling */
+li.headerbar {
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-weight: bold;
+}
+
+/* headerbar link styling */
+li.headerbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* navbar styling */
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: solid white;
+}
+
+/* navbar styling */
+li.navbar {
+  float: left;
+  font-size: 19px;
+}
+
+/* navbar link styling */
+li.navbar a 
+{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+/* navbar hover styling */
+li.navbar a:hover:not(.active) 
+{
+  border-bottom: 3px solid #d5002b;
+}
+
+/* current active navbar link styling */
+.active 
+{
+  border-bottom: 3px solid #d5002b;
+}
+
+/* form input styling */
+.input-field
+{
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #2d373e;
+  background-color: #fff;
+  border: 1px solid #8c9296;
+  border-radius: 3px;
+  transition: border .2s ease;
+  padding: 5px 12px;
+  font-size: 16px;
+  height: 24px;
+}
+
+/* form input checkbox styling */
+.input-checkbox
+{
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* small input length styling */
+.input-width-small
+{
+  max-width: 200px;
+}
+
+/* medium input length styling */
+.input-width-medium
+{
+  max-width: 300px;
+}
+
+/* large input length styling */
+.input-width-large
+{
+  max-width: 400px;
+}
+
+/* form padding */
+.formpadding
+{
+  padding-left: 80px;
+}
+
+/* hide up and down arrow spinners for number inputs */
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* hide up and down arrow spinners for number inputs */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* button styling */
+.btn-primary
+{
+  transition: background .2s ease,color .2s ease;
+}
+
+/* button hover styling */
+.btn-primary:hover
+{
+  color: #fff;
+  border-color: #d5002b;
+  background-color: #e24d6b;
+  text-decoration: none;
+}
+
+/* button styling */
+.btn
+{
+  color: #fff;
+  background-color: #d5002b;
+  padding: 5px 12px;
+  font-size: 16px;
+  height: 36px;
+  border-radius: 3px;
+  font-weight: 400;
+  line-height: 1.5;
+  white-space: nowrap;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid #d7d2cb;
+}
+
+/* table styling */
+.table
+{
+    width: 60%;
+    max-width: 100%;
+    margin-bottom: 21px;
+    background-color: #fff;
+    border-collapse: collapse;
+    display: table;
+    border-spacing: 2px;
+    border-color: grey;
+    margin-left: 20%;
+}
+
+/* table header styling */
+.th
+{
+  border-top: 1px solid #d7d2cb;
+  border-left: 1px solid #d7d2cb;
+  border-right: 1px solid #d7d2cb;
+  border-bottom: 3px solid #621a4b;
+  vertical-align: bottom;
+  border-bottom: 3px solid #621a4b;
+  font-weight: 500;
+  color: #2d373e;
+  padding: 12px
+}
+
+/* table cell styling */
+.td
+{
+  border: 1px solid #d7d2cb;
+  padding: 12px;
+}
+
+/* table row styling */
+.tr
+{
+  background-color: #fff;
+}
+
+/* table row hover styling */
+tr.tr:hover
+{
+ background-color: #f4f3f0;
+}
+
+/* table tbody tr td a styling */
+table tbody tr td a 
+{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* table tbody tr td a styling */
+table tbody tr td a:link,a:hover,a:visited,a:active
+{
+  color:#000;
+  text-decoration: none;
+}
+
+/* transform to uppercase */
+.uppercase
+{
+  text-transform: uppercase;
+}
+
+/* set large table font for certain cells */
+.largetablefont
+{
+  font-size:24px;
+}
